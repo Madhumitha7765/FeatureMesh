@@ -1,60 +1,33 @@
-# Feature: Authentication
-  Description of the feature
+# Feature: [Title of the feature]
+Description of the feature
 
-## Scenario: User logs in with valid credentials
-  Description of the scenario
+## Scenario: [Title of the scenario]
+Description of the scenario
 
-  Given the user is on the login page
-  When they enter valid username and password
-  Then they should be redirected to the dashboard
+### Given [precondition]
+### When [action/event]
+### Then [expected outcome]
 
-## Scenario: User logs in with invalid credentials
-  Description of the scenario
+### And [additional step]
+### But [exceptional case]
 
-  Given the user is on the login page
-  When they enter invalid username and password
-  Then they should see an error message
+## Background:
+Given [common precondition]
 
-# Feature: Shopping Cart
-  Description of the feature
+## Scenario Outline: [Title of the scenario outline]
+Given [precondition]
+When [action with <parameter>]
+Then [expected outcome with <parameter>]
 
-## Scenario: User adds items to the cart
-  Description of the scenario
+Examples:
+| parameter |
+|-----------|
+| value1    |
+| value2    |
 
-  Given the user is logged in
-  And they are on the product page
-  When they click on "Add to Cart" button
-  Then the item should be added to the cart
+## Tags:
+@tag1 @tag2 @tag3
 
-## Scenario: User removes items from the cart
-  Description of the scenario
-
-  Given the user has items in their cart
-  When they click on "Remove" button next to an item
-  Then the item should be removed from the cart
-
-# Feature: Search Functionality
-  Description of the feature
-
-## Scenario Outline: User searches for a product
-  Description of the scenario outline
-
-  Given the user is on the search page
-  When they search for "<search_term>"
-  Then they should see relevant results
-
-  Examples:
-    | search_term |
-    | iPhone      |
-    | Laptop      |
-
-# Tags
-@smoke @regression
-Feature: Tagging example
-  Description of the feature with tags
-
-@critical
-Scenario: Tagging a scenario
-  Description of the scenario with tag
-
-
+# Comments:
+Lines starting with # are treated as comments.
+# This is a comment
