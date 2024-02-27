@@ -2,7 +2,14 @@
 
 ## Overview
 
-The Feature Mesh Chat Bot is a conversational interface designed to facilitate interactions with the Feature Mesh platform. It provides data engineers and data scientists with a convenient way to to know more about the portal and its functionalites.
+The Feature Mesh Chat Bot is a conversational interface designed to facilitate interactions with the Feature Mesh platform. It provides data engineers and data scientists with a convenient way to to know more about the portal and its functionalites, it also assists the data scientist in fetching the feature set from the portal.
+
+## Features of chat bot
+
+- Helps the user to know more about the portal and its functionalities
+- Assists the user in fetching the feature set from the portal
+- Provides the user with the list of file formats supported by FeatureMesh
+
 
 ## Functions of chat bot
 
