@@ -57,6 +57,4 @@ Feature: Tagging example
 Scenario: Tagging a scenario
   Description of the scenario with tag
 
-# Comments
-# This is a comment
-# You can use comments to provide additional information or context
+
