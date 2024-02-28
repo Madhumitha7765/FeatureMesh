@@ -10,7 +10,8 @@ The Feature Mesh Chat Bot is a conversational interface designed to facilitate i
 - Assists the user in fetching the feature set from the portal
 - Provides the user with the list of file formats supported by FeatureMesh
 - The aim of this chat bot is to help & assist the user in getting data they need.
-- The chat bot will be beneficial in the scenarios where the user cannot comprehend the UI elements of the web portal or is not able to find the required information.
+- The bot gives detailed step by step instructions about how to use the UI and how to fetch the feature set from the portal.
+- If the user still finds it difficult the navigate with UI then the chat bot will search for feature on behalf of user and returns the feature set to the user.
 
 ## Example of chat bot usage
 
@@ -38,3 +39,4 @@ Bot: Goodbye
 - Personalization
   - The bot should be able to provide the user with the personalized response based on the user's query.
   - The bot should be able to provide the user with the personalized response based on the user's previous interactions with the bot.
+  
